@@ -1,0 +1,105 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "SpeedRunner",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_runner"
+    },
+    {
+      "name": "SpeedRunnerRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_runner_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Elzasnow",
+      "type": "mob",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elzasnow"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "speedrunner.death",
+      "files": [
+        "speedrunnerdies"
+      ],
+      "category": "player",
+      "subtitle": "Speedrunner dies"
+    },
+    {
+      "name": "speedrunner.hurt",
+      "files": [
+        "speedrunnerwashurted"
+      ],
+      "category": "player",
+      "subtitle": "AAAAH"
+    },
+    {
+      "name": "speedrunner.lucky",
+      "files": [
+        "speedrunnergotluck"
+      ],
+      "category": "player",
+      "subtitle": "O povezlo povezlo"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.speedrunner.lucky": "O povezlo povezlo",
+      "entity.memealmanac.speed_runner": "Speedrunner",
+      "subtitles.speedrunner.walking": "Speedrunner walks",
+      "entity.memealmanac.elzasnow": "Elsa",
+      "subtitles.speedrunner.hurt": "AAAAH",
+      "item.memealmanac.elzasnow_spawn_egg": "Elsa Spawn Egg",
+      "subtitles.speedrunner.death": "Speedrunner dies",
+      "item.memealmanac.speed_runner_spawn_egg": "Speedrunner Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "memealmanac",
+    "modName": "MemeALMANAC",
+    "version": "1.0.0",
+    "author": "Bazzt, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.memealmanac",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100112313
+}

@@ -1,0 +1,32 @@
+{
+  "speedrunner.death": {
+    "category": "player",
+    "subtitle": "subtitles.speedrunner.death",
+    "sounds": [
+      {
+        "name": "memealmanac:speedrunnerdies",
+        "stream": false
+      }
+    ]
+  },
+  "speedrunner.hurt": {
+    "category": "player",
+    "subtitle": "subtitles.speedrunner.hurt",
+    "sounds": [
+      {
+        "name": "memealmanac:speedrunnerwashurted",
+        "stream": false
+      }
+    ]
+  },
+  "speedrunner.lucky": {
+    "category": "player",
+    "subtitle": "subtitles.speedrunner.lucky",
+    "sounds": [
+      {
+        "name": "memealmanac:speedrunnergotluck",
+        "stream": false
+      }
+    ]
+  }
+}
