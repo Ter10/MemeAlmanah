@@ -205,6 +205,7 @@ public class SpeedRunnerEntity extends MemealmanacModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
+				$_dependencies.put("sourceentity", sourceentity);
 				$_dependencies.put("world", world);
 				SpeedRunnerRightClickedOnEntityProcedure.executeProcedure($_dependencies);
 			}
